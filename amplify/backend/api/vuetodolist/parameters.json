@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "vuetodolist",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authvuetodolist935263ff",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
